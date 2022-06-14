@@ -1,0 +1,19 @@
+#board {
+  display: flex;
+  height: 256px;
+  width: 256px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+#prompt {
+  margin-bottom: 25px;
+}
+.box {
+  background-color: black;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+}
